@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+@font-face {
+  font-family: "ghs";
+  src: url("font/Contage_Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "ghs_thin";
+  src: url("font/Tangerine_Thin.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Rusilla";
+  src: url("font/Rusilla_serif_bold.otf") format("opentype");
+}
+@font-face {
+  font-family: "Kollera";
+  src: url("font/Kollera_bold.otf") format("opentype");
+}
+@font-face {
+  font-family: "erhard";
+  src: url("font/Erhard.ttf") format("truetype");
+}
+
+body {
+  background: #000000;
+  border-style: double;
+  border-color: #cce9fc;
+  border-width: 5px;
+  border-radius: 5px;
+}
+body h1 {
+  color: #ffffff;
+  text-shadow: 3px 1px 8px #1cffbe;
+  font-family: Kollera, "Sans-Serif";
+  text-align: center;
+  justify-content: center;
+  animation: intrue 2.5s ease-in 1;
+}
+body img {
+  object-fit: cover;
+  margin: 0 auto;
+  border: 2px solid #cce9fc;
+  border-radius: 50%;
+  text-align: center;
+  justify-content: center;
+  animation: image_animate 2s ease-in 1;
+  opacity: 1;
+}
+body #name {
+  font-weight: bolder;
+  text-shadow: rgba(117, 255, 238, 0.931) 5px 10px 150px;
+  color: rgb(190, 255, 227);
+  margin: 1rem;
+  font-style: italic;
+  text-transform: uppercase;
+  font-family: serif, "Sans-Serif";
+  animation: name_ 0.5s ease-in 1;
+}
+body p {
+  color: #fff;
+}
+
+body .social {
+  margin: 1rem auto;
+  align-items: center;
+  display: flex;
+  width: 70%;
+  justify-content: space-between;
+  animation: image_animate 3s ease-in 1;
+}
+
+body .social a {
+  text-decoration: none;
+  border: none;
+  outline: none;
+  display: inline-block;
+  border-radius: 50%;
+  background: #fff;
+  width: 35px;
+  height: 35px;
+  padding: 3px;
+  transition: 0.3s ease-in;
+}
+body .social a i {
+  font-size: 20px;
+}
+body .social a:hover {
+  background: radial-gradient(
+    rgba(0, 250, 45, 0.51) 5%,
+    rgba(239, 0, 250, 0.51) 15%,
+    rgba(9, 34, 255, 0.404) 60%
+  );
+  color: #fff;
+  width: 40px;
+  height: 40px;
+}
+body #type_text {
+  text-align: left;
+  float: left;
+  margin: 0.5rem 1rem;
+  word-spacing: 3px;
+  line-height: 1.7rem;
+  padding: 0.3rem;
+  font-weight: 300;
+  color: #ffffff;
+  font-family: Kollera, "Sans-Serif";
+}

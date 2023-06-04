@@ -1,0 +1,84 @@
+@keyframes intrue {
+  0% {
+    font-size: 1px;
+  }
+  30% {
+    font-size: 10px;
+  }
+  50% {
+    font-size: 18px;
+  }
+  60% {
+    font-size: 25px;
+  }
+  75% {
+    font-size: 30px;
+  }
+  85% {
+    font-size: 40px;
+  }
+  100% {
+    font-size: 2.2rem;
+  }
+}
+@keyframes image_animate {
+  0% {
+    opacity: 0;
+    /*  width: 10px;
+    height: 10px;*/
+  }
+  30% {
+    opacity: 0.1;
+    /* width: 100px;
+    height: 100px;*/
+  }
+  50% {
+    opacity: 0.2;
+    /*   width: 128px;
+    height: 128px;*/
+  }
+  60% {
+    opacity: 0.3;
+    /*  width: 165px;
+    height: 165px;*/
+  }
+  75% {
+    opacity: 0.4;
+    /*  width: 160px;
+    height: 160px;*/
+  }
+  85% {
+    opacity: 0.5;
+    /*  width: 180px;
+    height: 180px;*/
+  }
+  100% {
+    opacity: 1;
+    /*  width: 200px;
+    height: 200px;*/
+  }
+}
+
+@keyframes name_ {
+  0% {
+    font-size: 2.8rem;
+  }
+  30% {
+    font-size: 2.8rem;
+  }
+  50% {
+    font-size: 2.7rem;
+  }
+  60% {
+    font-size: 2.6rem;
+  }
+  75% {
+    font-size: 2.5rem;
+  }
+  85% {
+    font-size: 2.3;
+  }
+  100% {
+    font-size: 1.5rem;
+  }
+}

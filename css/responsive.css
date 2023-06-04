@@ -1,0 +1,56 @@
+/* <-------DESKTOP DEVICES-----------> */
+@media (max-width: 1200px) {
+  body {
+    margin: auto;
+    width: 90%;
+    height: 90%;
+    text-align: center;
+    justify-content: center;
+  }
+  body h1 {
+    margin: 15% auto;
+  }
+  body img {
+    width: 300px;
+    height: 300px;
+  }
+}
+/* <-------LAPTOP OR TABLET DEVICES-----------> */
+@media (max-width: 900px) {
+  body {
+    margin: 0 auto;
+    width: 80%;
+    height: 100vh;
+    text-align: center;
+    justify-content: center;
+    overflow: auto;
+  }
+  body h1 {
+    margin: 15% auto;
+  }
+  body img {
+    width: 200px;
+    height: 200px;
+  }
+}
+/* <-------MOBILE DEVICES-----------> */
+@media (max-width: 400px) {
+  body {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+  }
+  body h1 {
+    margin: 8% auto;
+    font-size: 2.2rem;
+  }
+  body img {
+    width: 200px;
+    height: 200px;
+  }
+  body #name {
+    font-size: 1.5rem;
+    word-spacing: 6px;
+  }
+}
