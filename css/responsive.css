@@ -8,11 +8,22 @@
     justify-content: center;
   }
   body h1 {
-    margin: 15% auto;
+    margin: 2% auto;
   }
   body img {
     width: 300px;
     height: 300px;
+  }
+  body #name {
+    font-size: 1.7rem;
+    word-spacing: 6px;
+  }
+  body .social {
+    width: 50%;
+  }
+  body #type_text {
+    font-size: 20px;
+    margin: auto 8rem;
   }
 }
 /* <-------LAPTOP OR TABLET DEVICES-----------> */
@@ -42,7 +53,7 @@
     position: fixed;
   }
   body h1 {
-    margin: 8% auto;
+    margin: 5% auto;
     font-size: 2.2rem;
   }
   body img {
@@ -52,5 +63,12 @@
   body #name {
     font-size: 1.5rem;
     word-spacing: 6px;
+  }
+  body .social {
+    width: 70%;
+  }
+  body #type_text {
+    font-size: 18px;
+    margin: 0.5rem 1rem;
   }
 }

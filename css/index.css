@@ -5,6 +5,28 @@
   overflow: hidden;
 }
 @font-face {
+  font-family: "LeagueGothic";
+  src: url("font/LeagueGothic-Regular.otf") format("opentype");
+}
+@font-face {
+  font-family: "Oswald";
+  src: url("font/Oswald-Light.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Seventeen";
+  src: url("font/Seventeen.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Telephone";
+  src: url("font/Telephone.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Univers";
+  src: url("font/UniversCondensed.ttf") format("truetype");
+}
+
+@font-face {
   font-family: "ghs";
   src: url("font/Contage_Bold.ttf") format("truetype");
 }
@@ -27,15 +49,21 @@
 
 body {
   background: #000000;
-  border-style: double;
+  /*border-style: double;
   border-color: #cce9fc;
   border-width: 5px;
-  border-radius: 5px;
+  border-radius: 5px;*/
+  border: 10px solid transparent;
+
+  border-image: url(../images/bmf.png) 26 round;
 }
 body h1 {
-  color: #ffffff;
-  text-shadow: 3px 1px 8px #1cffbe;
-  font-family: Kollera, "Sans-Serif";
+  background: -webkit-linear-gradient(#1a8b00, #ffffff, #7fd4ff, #f80085);
+  text-shadow: 2px 1px 2px #a7ffef;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Univers, "Sans-Serif";
+  transition: ease-in 0.3s;
   text-align: center;
   justify-content: center;
   animation: intrue 2.5s ease-in 1;
@@ -43,21 +71,24 @@ body h1 {
 body img {
   object-fit: cover;
   margin: 0 auto;
-  border: 2px solid #cce9fc;
+  padding: 0.3rem;
+  border-color: #9affed;
   border-radius: 50%;
+  border-style: double;
+  border-width: 3px;
   text-align: center;
   justify-content: center;
   animation: image_animate 2s ease-in 1;
   opacity: 1;
 }
 body #name {
-  font-weight: bolder;
-  text-shadow: rgba(117, 255, 238, 0.931) 5px 10px 150px;
+  text-shadow: 2px 1px 2px #ffffff;
+  font-weight: 300;
+  text-transform: uppercase;
   color: rgb(190, 255, 227);
   margin: 1rem;
-  font-style: italic;
-  text-transform: uppercase;
-  font-family: serif, "Sans-Serif";
+  letter-spacing: 2px;
+  font-family: ghs, "Sans-Serif";
   animation: name_ 0.5s ease-in 1;
 }
 body p {
@@ -65,10 +96,9 @@ body p {
 }
 
 body .social {
-  margin: 1rem auto;
+  margin: 0.5rem auto;
   align-items: center;
   display: flex;
-  width: 70%;
   justify-content: space-between;
   animation: image_animate 3s ease-in 1;
 }
@@ -101,11 +131,25 @@ body .social a:hover {
 body #type_text {
   text-align: left;
   float: left;
-  margin: 0.5rem 1rem;
   word-spacing: 3px;
   line-height: 1.7rem;
   padding: 0.3rem;
   font-weight: 300;
   color: #ffffff;
-  font-family: Kollera, "Sans-Serif";
+  font-family: Telephone, "Sans-Serif";
+}
+body #menu {
+  float: right;
+  outline: none;
+  border: none;
+  box-shadow: none;
+  margin: 0.8rem;
+  padding: 0 0.5rem;
+  background: #81ffe9;
+  border-radius: 4px;
+}
+body #menu i {
+  color: #0019f7;
+  font-weight: bolder;
+  font-size: 18px;
 }
